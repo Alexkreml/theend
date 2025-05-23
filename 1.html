@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект</title>
+    <link rel="icon" href="javascript-16-svgrepo-com.svg" type="image/svg"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="hh">
+    <header>
+        <nav>
+            <ul class="ggg">
+                <li class="gg gggg h"><a href="index.html" class="gg">Home</a></li>
+                <li class="gg gggg h"><a href="1.html" class="gg">About</a></li>
+                <li class="gg gggg h"><a href="2.html" class="gg">Order a project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="m">
+        Hi. My name is Aleksey. I'm 14 years old. I'm learning Html, Python, and blender. I study at school 1352⬇
+    </div>
+    <div class="hhh">
+        <img src="XXXL.webp" alt="" >
+    </div>
+    <div class="nnn">Info:</div>
+    <div id="f" class="nnn"></div>
+    <br>
+    <div id="g" class="nnn"></div>
+    <script>
+        document.getElementById("f").innerHTML = "<div id='f'>" + screen.width + " x " + screen.height + "</div> </br>" + "<div>Screen Width: " + screen.width + " pixels" + "</div>" + "<div>Screen Height: " + screen.height + " pixels" + "</div>" + "<div> DPR (Device Pixel Ratio): " + window.devicePixelRatio + "</div>" + "<div>Color depth: " + screen.colorDepth + " bits per pixel" + "</div>";
+        document.getElementById("g").innerHTML = "Width: " + window.innerWidth +" pixels"+"</br>"+ "Height: " + window.innerHeight + " pixels";
+    </script>
+</body>
+</html>
